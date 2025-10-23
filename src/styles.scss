@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* src/styles.scss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adicione o fundo claro global aqui */
+body {
+  background-color: #F3F4F6; /* bg-gray-100 */
+}
